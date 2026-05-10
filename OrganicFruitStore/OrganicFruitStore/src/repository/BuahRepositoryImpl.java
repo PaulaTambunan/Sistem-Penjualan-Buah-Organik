@@ -1,8 +1,6 @@
 package repository;
-
 import model.Buah;
 import util.DatabaseConnection;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

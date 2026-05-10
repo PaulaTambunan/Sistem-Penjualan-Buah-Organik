@@ -7,7 +7,7 @@ public class Buah extends Entity {
     private int stok;
     private String deskripsi;
 
-    // Constructor
+    
     public Buah() {}
 
     public Buah(String nama, String kategori, double harga, int stok, String deskripsi) {
@@ -18,7 +18,7 @@ public class Buah extends Entity {
         this.deskripsi = deskripsi;
     }
 
-    // Getter & Setter
+  
     public String getNama() { return nama; }
     public void setNama(String nama) { this.nama = nama; }
 

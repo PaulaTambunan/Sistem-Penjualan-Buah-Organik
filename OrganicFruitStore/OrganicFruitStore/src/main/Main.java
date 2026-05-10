@@ -1,8 +1,6 @@
 package main;
-
 import model.*;
 import service.*;
-
 import java.util.*;
 
 public class Main {
