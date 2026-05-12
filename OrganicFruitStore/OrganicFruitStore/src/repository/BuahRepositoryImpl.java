@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BuahRepositoryImpl implements BuahRepository {
 
-    // DATA MAPPER — mengubah ResultSet jadi object Buah
+   
     private Buah mapToBuah(ResultSet rs) throws SQLException {
         Buah buah = new Buah();
         buah.setId(rs.getInt("id"));

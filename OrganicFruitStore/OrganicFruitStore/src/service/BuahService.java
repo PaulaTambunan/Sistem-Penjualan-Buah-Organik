@@ -7,7 +7,6 @@ import java.util.List;
 
 public class BuahService {
 
-    // SOLID: Dependency Injection
     private BuahRepository buahRepository;
 
     public BuahService() {
@@ -47,7 +46,7 @@ public class BuahService {
         buahRepository.hapus(id);
     }
 
-    // Logika bisnis: cek apakah buah tersedia
+    
     public boolean cekKetersediaan(int id, int jumlahDiminta) {
         Buah buah = buahRepository.ambilById(id);
         if (buah == null) {

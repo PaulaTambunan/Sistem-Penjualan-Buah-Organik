@@ -34,7 +34,7 @@ public class Main {
         }
     }
 
-    // =================== MENU UTAMA ===================
+    
     static void tampilMenuUtama() {
         System.out.println("\n========== MENU UTAMA ==========");
         System.out.println("1. Kelola Buah");
@@ -45,7 +45,7 @@ public class Main {
         System.out.print("Pilih menu: ");
     }
 
-    // =================== MENU BUAH ===================
+   
     static void menuBuah() {
         boolean back = false;
         while (!back) {
@@ -127,7 +127,7 @@ public class Main {
         buahService.hapusBuah(id);
     }
 
-    // =================== MENU PELANGGAN ===================
+    
     static void menuPelanggan() {
         boolean back = false;
         while (!back) {
@@ -178,7 +178,7 @@ public class Main {
         pelangganService.hapusPelanggan(id);
     }
 
-    // =================== MENU PESANAN ===================
+   
     static void menuPesanan() {
         boolean back = false;
         while (!back) {
@@ -280,7 +280,7 @@ public class Main {
         pesananService.updateStatusPesanan(id, status);
     }
 
-    // =================== MENU PROMO ===================
+    
     static void menuPromo() {
         boolean back = false;
         while (!back) {
@@ -333,7 +333,7 @@ public class Main {
         promoService.hapusPromo(id);
     }
 
-    // =================== HELPER ===================
+   
     static int inputAngka() {
         try {
             int angka = Integer.parseInt(scanner.nextLine());

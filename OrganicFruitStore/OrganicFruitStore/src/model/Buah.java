@@ -9,7 +9,6 @@ public class Buah extends Entity {
 
     
     public Buah() {}
-
     public Buah(String nama, String kategori, double harga, int stok, String deskripsi) {
         this.nama = nama;
         this.kategori = kategori;
